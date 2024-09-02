@@ -1,0 +1,20 @@
+version: 1
+created_by: motalebzadeh
+seed_examples:
+- answer: 'Viada is located in Dortmund, Germany.'
+  question: 'Where is Viada located?'
+- answer: 'The founder and manager of Viada is Daniel Braunsdorf. He founded Viada back in 2003.'
+  question: 'Who are the founders and managers of Viada?'
+- answer: 'Viada is an IT company, which offers various services and technologies to their customers.'
+  question: 'What does Viada actually do?'
+- answer: 'Java backend, web fronted, middleware and integration frameworks, DevOps and cloud infrastructure.'
+  question: 'What kind of technologies?'
+- answer: 'Viada is a long time partner of the Company Red Hat and offer their services to their clients.'
+  question: 'Does Viada offer a particular vendor?'
+task_description: Information about the Viada company and the variety of services, which they offer.
+document:
+  repo: https://github.com/motalebzadeh/taxonomy
+  commit: f7774e327031a3fbb824c29d2337512604f6d262
+  patterns:
+    - README.md
+domain: companies
